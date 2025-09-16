@@ -1,0 +1,29 @@
+.my-custom-categories {
+  margin-top: 2rem;
+
+  .extra-heading {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .extra-category-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .category-box {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    background: #f5f5f5;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+    transition: background 0.2s;
+
+    &:hover {
+      background: #eaeaea;
+    }
+  }
+}
